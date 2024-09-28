@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "figurine"
+version = "0.1.0"
+description = ""
+authors = ["iliakhar <kharchenko_ilia@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+numpy = "^2.1.1"
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
